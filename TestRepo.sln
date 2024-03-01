@@ -5,12 +5,9 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sln", "sln", "{9548AC05-DBB2-4FB2-84B4-A9A8BDE6BDA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testConsole", "sln\testConsole\testConsole.csproj", "{2B176CEC-FE37-4BB8-905E-89ACF8CDCC7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "testConsole", "sln\testConsole\testConsole.csproj", "{2B176CEC-FE37-4BB8-905E-89ACF8CDCC7C}"
 EndProject
 Global
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|x64 = Debug|x64
@@ -33,7 +30,13 @@ Global
 		{2B176CEC-FE37-4BB8-905E-89ACF8CDCC7C}.Release|x86.ActiveCfg = Release|Any CPU
 		{2B176CEC-FE37-4BB8-905E-89ACF8CDCC7C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2B176CEC-FE37-4BB8-905E-89ACF8CDCC7C} = {9548AC05-DBB2-4FB2-84B4-A9A8BDE6BDA7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC9FAC86-8E41-422C-8025-BF71322FDAEA}
 	EndGlobalSection
 EndGlobal
